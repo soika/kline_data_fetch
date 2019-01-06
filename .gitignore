@@ -1,0 +1,7 @@
+/src/.vs/*
+/src/Core.Shared/bin/*
+/src/Core.Shared/obj/*
+/src/Core.Data/bin/*
+/src/Core.Data/obj/*
+/src/WebApi/bin/*
+/src/WebApi/obj/*

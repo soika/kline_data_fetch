@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Binance.Net" Version="4.0.4" />
+    <PackageReference Include="Bitfinex.Net" Version="2.0.4" />
+    <PackageReference Include="Bittrex.Net" Version="3.0.3" />
+    <PackageReference Include="CoinEx.Net" Version="2.0.2" />
+    <PackageReference Include="Cronos" Version="0.7.0" />
+    <PackageReference Include="Huobi.Net" Version="0.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Jobs\Okex\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\core.data\Core.Data.csproj" />
+    <ProjectReference Include="..\Core.Shared\Core.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
